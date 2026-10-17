@@ -1,6 +1,6 @@
 # azure-queue-pipeline-azurite
 
-![ci](https://github.com/Sup3rMar10/azure-queue-pipeline-azurite/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/Supp3r-Man/azure-queue-pipeline-azurite/actions/workflows/ci.yml/badge.svg)
 
 **A queue-processing pipeline for Azure Storage Queues that turns at-least-once delivery into effectively-once results, tested against a real Azurite emulator** (Microsoft's Azure Storage emulator, which speaks the actual Queue, Table and Blob protocols to the actual Azure SDKs). Poison messages, retries with backoff, duplicate events, workers that crash at every possible point, workers that are merely slow, and two workers racing: each is a test that runs against real queue, table and blob semantics, not a mock.
 
